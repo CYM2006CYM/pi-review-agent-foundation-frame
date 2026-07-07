@@ -1,0 +1,51 @@
+{
+  "name": "pi-review",
+  "version": "3.0.0",
+  "description": "Pi 复习助手 — AI-driven course review assistant. 启动 pi 后使用 /review 命令进行结构化复习。支持三种模式：概念卡片+练习、直接做题、章节笔记学习。",
+  "keywords": ["pi-package"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0liveiraaa/pi-review"
+  },
+  "homepage": "https://github.com/0liveiraaa/pi-review#readme",
+  "bugs": {
+    "url": "https://github.com/0liveiraaa/pi-review/issues"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "files": [
+    "extensions/",
+    "skills/",
+    "lib/",
+    "profiles/",
+    "scripts/",
+    "data/",
+    "test/",
+    "review.config.json",
+    "package.json",
+    "README.md"
+  ],
+  "type": "module",
+  "pi": {
+    "extensions": ["./extensions/review"],
+    "skills": ["./skills"]
+  },
+  "scripts": {
+    "setup-review": "node scripts/setup-review.mjs",
+    "reset-demo-profile": "node scripts/reset-demo-profile.mjs",
+    "migrate-profile-family": "node scripts/migrate-profile-family.mjs",
+    "check-package": "node scripts/check-package.mjs",
+    "check": "node --check lib/state.mjs && node --check lib/review_question.mjs && node --check lib/review_engine.mjs && node --check lib/review_profiles.mjs && node --check lib/review_materials.mjs && node --check lib/review_config.mjs && node --check lib/cards.mjs && node --check lib/chapters.mjs && node --check scripts/setup-review.mjs && node --check scripts/reset-demo-profile.mjs && node --check scripts/migrate-profile-family.mjs && node --check scripts/check-package.mjs",
+    "test": "node --test test/review_core.test.mjs"
+  },
+  "dependencies": {
+    "marked": "^18.0.5"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*",
+    "typebox": "*"
+  }
+}

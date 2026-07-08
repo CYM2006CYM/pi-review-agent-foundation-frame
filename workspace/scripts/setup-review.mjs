@@ -185,7 +185,7 @@ if (demoProfilePath) {
 // 7. Package integrity
 if (existsSync(PACKAGE_PATH)) {
   const pkg = JSON.parse(readFileSync(PACKAGE_PATH, "utf-8"));
-  if (pkg.name === "pi-review") ok(`Package: ${pkg.name} v${pkg.version}`);
+  if (pkg.name === "pi-review-agent-foundation-frame") ok(`Package: ${pkg.name} v${pkg.version}`);
   else fail(`Unexpected package name: ${pkg.name}`);
 } else {
   fail("package.json not found");

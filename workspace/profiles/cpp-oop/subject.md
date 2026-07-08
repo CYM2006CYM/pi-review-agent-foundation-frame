@@ -2,7 +2,7 @@
 
 这是随包发布的自包含 C++ 复习资料包，面向课程复习和班级共享使用。
 
-本资料包不依赖仓库根目录的 `reference/`。安装后 pi-review 会把它从 `workspace/profiles/cpp-oop/` 种到用户可写的 profile 目录，同学可以直接运行 `/review` 选择本 profile 开始复习，不需要额外执行 `/review-init`。
+本资料包不依赖仓库根目录的 `reference/`。安装后 pi-review-agent-foundation-frame 会把它从 `workspace/profiles/cpp-oop/` 种到用户可写的 profile 目录，同学可以直接运行 `/review` 选择本 profile 开始复习，不需要额外执行 `/review-init`。
 
 ## 复习目标
 

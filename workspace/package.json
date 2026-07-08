@@ -1,16 +1,16 @@
 {
-  "name": "pi-review",
+  "name": "pi-review-agent-foundation-frame",
   "version": "3.0.0",
   "description": "Pi 复习助手 — AI-driven course review assistant. 启动 pi 后使用 /review 命令进行结构化复习。支持三种模式：概念卡片+练习、直接做题、章节笔记学习。",
   "keywords": ["pi-package"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/0liveiraaa/pi-review"
+    "url": "https://github.com/CYM2006CYM/pi-review-agent-foundation-frame"
   },
-  "homepage": "https://github.com/0liveiraaa/pi-review#readme",
+  "homepage": "https://github.com/CYM2006CYM/pi-review-agent-foundation-frame#readme",
   "bugs": {
-    "url": "https://github.com/0liveiraaa/pi-review/issues"
+    "url": "https://github.com/CYM2006CYM/pi-review-agent-foundation-frame/issues"
   },
   "engines": {
     "node": ">=22"

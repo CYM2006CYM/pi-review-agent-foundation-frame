@@ -4,7 +4,7 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")" && pwd)"
 
 echo "============================================="
-echo "  pi-review-agent installer"
+echo "  pi-review-agent-foundation-frame installer"
 echo "============================================="
 echo
 
@@ -74,5 +74,5 @@ echo "  1. Run: pi"
 echo "  2. Inside pi, type: /review"
 echo
 echo "If you installed an older git copy before, run:"
-echo "  pi update git:git@github.com:0liveiraaa/pi-review-agent"
+echo "  pi update git:https://github.com/CYM2006CYM/pi-review-agent-foundation-frame.git"
 echo "or remove and reinstall it."

@@ -1,16 +1,16 @@
 {
-  "name": "pi-review-agent",
+  "name": "pi-review-agent-foundation-frame",
   "version": "3.0.0",
-  "description": "Pi Review Agent - a pi-agent extension for structured course review.",
+  "description": "Pi Review Agent Foundation Frame - a pi-agent extension for structured course review.",
   "keywords": ["pi-package"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/0liveiraaa/pi-review-agent.git"
+    "url": "git+https://github.com/CYM2006CYM/pi-review-agent-foundation-frame.git"
   },
-  "homepage": "https://github.com/0liveiraaa/pi-review-agent#readme",
+  "homepage": "https://github.com/CYM2006CYM/pi-review-agent-foundation-frame#readme",
   "bugs": {
-    "url": "https://github.com/0liveiraaa/pi-review-agent/issues"
+    "url": "https://github.com/CYM2006CYM/pi-review-agent-foundation-frame/issues"
   },
   "engines": {
     "node": ">=22"

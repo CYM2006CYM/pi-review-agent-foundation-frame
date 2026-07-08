@@ -6,7 +6,7 @@
 
 - **New entry point:** Project is now a **pi-agent extension**, no longer a standalone CLI. Use `/review` inside pi-agent TUI.
 - Removed `review_cli.mjs`, `review_cli.py`, `lib/session.mjs`, `lib/terminal.mjs` — archived to `workspace/docs/legacy/`.
-- `package.json` renamed from `cpp-review-assistant` to `pi-review`.
+- `package.json` uses the `pi-review-agent-foundation-frame` package name.
 
 ### Added
 

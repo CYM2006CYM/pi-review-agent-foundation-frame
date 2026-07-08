@@ -29,7 +29,7 @@ npm test
 - skills：12 个
 - lib modules：8 个
 - review profiles：`cpp-oop [active]`、`demo-review [active]`
-- package：`pi-review v3.0.0`
+- package：`pi-review-agent-foundation-frame v3.0.0`
 
 ## Demo Profile 状态
 

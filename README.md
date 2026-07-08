@@ -94,7 +94,7 @@ pi
 pi install ./workspace
 
 # 或从 git 安装
-pi install git:git@github.com:0liveiraaa/pi-review-agent
+pi install git:https://github.com/CYM2006CYM/pi-review-agent-foundation-frame.git
 ```
 
 ---
@@ -105,7 +105,7 @@ pi install git:git@github.com:0liveiraaa/pi-review-agent
 
 ```bash
 # 进入项目目录
-cd pi-review-agent/workspace
+cd pi-review-agent-foundation-frame/workspace
 
 # 启动 pi-agent
 pi
@@ -258,7 +258,7 @@ pi
 ## 📁 项目结构
 
 ```
-pi-review-agent/
+pi-review-agent-foundation-frame/
 ├── install.cmd                       ← 一键安装脚本（Windows）
 ├── install.sh                        ← 一键安装脚本（bash）
 ├── workspace/                        ← 主要工作目录
@@ -318,7 +318,7 @@ Node.js >= 22
          └── typebox                     (JSON Schema 校验)
    └── workspace/
          ├── marked                      (Markdown 渲染)
-         └── pi-review 扩展              ← 本项目的代码
+         └── pi-review-agent-foundation-frame 扩展 ← 本项目的代码
 ```
 
 ---

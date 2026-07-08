@@ -1,7 +1,7 @@
 > **✅ 复核已办结**（2026-06-06）
 > 本文档列出的阻塞项已在同日处理完成：
 > - node_modules/ 已从 git 跟踪移除 + .gitignore
-> - package.json 已更名为 pi-review@3.0.0，移除旧入口
+> - package.json 已更名为 pi-review-agent-foundation-frame@3.0.0，移除旧入口
 > - review_cli.mjs / review_cli.py / lib/session.mjs / lib/terminal.mjs 已归档至 docs/legacy/
 > - 所有开发文档已重写或标注 legacy
 > - DESIGN.md 已更新至 v4.0
@@ -68,7 +68,7 @@ npm test
 
 `workspace/package.json` 当前仍是：
 
-- `name: "cpp-review-assistant"`
+- `name: "pi-review-agent-foundation-frame"`
 - `description` 仍是 C++ 期末复习助手
 - `main: "review_cli.mjs"`
 - `start: "node review_cli.mjs"`
@@ -78,7 +78,7 @@ npm test
 
 建议：
 
-- package name 改为中性名称，例如 `pi-review-assistant` 或 `pi-review-workspace`。
+- package name 改为当前仓库名称：`pi-review-agent-foundation-frame`。
 - 移除或改写 `start`。可改成 `npm run setup-review && pi` 的说明型脚本，或者不提供 start。
 - `check` 应检查当前主路径：`lib/*.mjs`、`scripts/*.mjs`、必要时加扩展 import smoke test。
 - `review_cli.mjs` 若保留，只能作为 `legacy`，不能是入口。
@@ -466,4 +466,3 @@ Node 读取 JSON 能正确显示中文，说明部分文件内容是正常 UTF-8
 - 不建议把 C++ legacy profile 作为开源默认体验。
 - 不建议在 demo 发布前接入 pi-agent 全局目录或修改全局安装。
 - 不建议现在实现复杂自定义 compaction；当前自动 compaction + archive/state 已足够 demo。
-
